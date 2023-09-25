@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://raw.githubusercontent.com/err0rpr0mpt/galinsidecdn/main/$1"
+    }
+  ]
+}
